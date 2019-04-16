@@ -1,0 +1,8 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =6
+let g:netrw_dirhist_1='/Users/ian.huang/Documents/Projects/babar'
+let g:netrw_dirhist_2='/Users/ian.huang/.vim'
+let g:netrw_dirhist_3='/Users/ian.huang/Documents/Projects/fsmrnn'
+let g:netrw_dirhist_4='/Users/ian.huang/Documents/TFtesting'
+let g:netrw_dirhist_5='/Users/ian.huang/Documents/Projects/deep-neural-inspector/src/utils'
+let g:netrw_dirhist_6='/Users/ian.huang/Documents/Projects/deep-neural-inspector/src'

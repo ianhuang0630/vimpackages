@@ -1,0 +1,66 @@
+execute pathogen#infect()
+syntax on
+filetype plugin indent on
+
+
+syntax enable
+set hidden
+set history=100
+set number
+let g:gruvbox_contrast_dark = 'hard'
+let g:gruvbox_bold = '1'
+let g:gruvbox_hls_cusor = 'orange'
+
+let g:rehash256 = 1
+let g:molokai_original = 1
+colorscheme molokai
+map rr :source ~/.vimrc
+
+let g:airline#extensions#tabline#enabled = 1
+let g:airline#extensions#left_sep = ' '
+let g:airline#extensions#tabline#left_alt_sep = '|'
+
+"set backspace=indent,eol,start
+set backspace=indent,eol,start
+
+set clipboard=unnamedplus
+
+inoremap <C-b> <Left>
+inoremap <C-f> <Right>
+inoremap <C-p> <Up>
+inoremap <C-n> <Down>
+inoremap <C-e> <C-o>A
+inoremap <C-a> <C-o>I
+inoremap <C-d> <Del>
+inoremap <C-z> <C-o>u
+inoremap <C-y> <C-o>.
+
+nnoremap <C-b> h
+nnoremap <C-f> l
+nnoremap <C-p> k
+nnoremap <C-n> j
+nnoremap <C-c> yy
+nnoremap <C-v> p
+nnoremap <C-Left> gt
+nnoremap <C-Right> gT
+
+
+vnoremap <C-b> <Left>
+vnoremap <C-f> <Right>
+vnoremap <C-p> <Up>
+vnoremap <C-n> <Down>
+
+
+set splitright
+set splitbelow
+set showcmd
+
+set autoindent
+set smartindent
+set smarttab
+set shiftwidth=4
+set softtabstop=4
+set tabstop=4
+set expandtab
+
+set nowrap
